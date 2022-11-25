@@ -20,8 +20,9 @@ class SignUp extends StatelessWidget {
                 height: 600,
                 width: 300,
                 decoration: BoxDecoration(
-                    // color: Colors.white,
-                    color: Color(0xFF101010)),
+                  // color: Colors.white,
+                  color: Color(0xFF101010),
+                ),
                 child: Column(
                   crossAxisAlignment: CrossAxisAlignment.start,
                   children: [
@@ -199,39 +200,39 @@ class SignUp extends StatelessWidget {
                       height: 20,
                     ),
                     // // Creating Button
-                    Padding(
-                      padding: const EdgeInsets.fromLTRB(10, 0, 0, 0),
-                      // ignore: deprecated_member_use
-                      child: RaisedButton(
-                        onPressed: () {},
-                        shape: RoundedRectangleBorder(
-                          borderRadius: BorderRadius.circular(10),
-                        ),
-                        padding: EdgeInsets.all(0.0),
-                        child: Ink(
-                          decoration: BoxDecoration(
-                              gradient: LinearGradient(
-                                colors: [
-                                  Color(0xffB816DA),
-                                  Color(0xffD026AE),
-                                ],
-                                begin: Alignment.centerLeft,
-                                end: Alignment.centerRight,
-                              ),
-                              borderRadius: BorderRadius.circular(10)),
-                          child: Container(
-                            constraints: BoxConstraints(
-                                maxWidth: 280.0, minHeight: 50.0),
-                            alignment: Alignment.center,
-                            child: Text(
-                              "Create Account",
-                              textAlign: TextAlign.center,
-                              style: TextStyle(color: Colors.white),
-                            ),
-                          ),
-                        ),
-                      ),
-                    ),
+                    // Padding(
+                    //   padding: const EdgeInsets.fromLTRB(10, 0, 0, 0),
+                    //   // ignore: deprecated_member_use
+                    //   child: RaisedButton(
+                    //     onPressed: () {},
+                    //     shape: RoundedRectangleBorder(
+                    //       borderRadius: BorderRadius.circular(10),
+                    //     ),
+                    //     padding: EdgeInsets.all(0.0),
+                    //     child: Ink(
+                    //       decoration: BoxDecoration(
+                    //           gradient: LinearGradient(
+                    //             colors: [
+                    //               Color(0xffB816DA),
+                    //               Color(0xffD026AE),
+                    //             ],
+                    //             begin: Alignment.centerLeft,
+                    //             end: Alignment.centerRight,
+                    //           ),
+                    //           borderRadius: BorderRadius.circular(10)),
+                    //       child: Container(
+                    //         constraints: BoxConstraints(
+                    //             maxWidth: 280.0, minHeight: 50.0),
+                    //         alignment: Alignment.center,
+                    //         child: Text(
+                    //           "Create Account",
+                    //           textAlign: TextAlign.center,
+                    //           style: TextStyle(color: Colors.white),
+                    //         ),
+                    //       ),
+                    //     ),
+                    //   ),
+                    // ),
                     Row(
                       children: [
                         Padding(
